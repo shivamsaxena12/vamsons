@@ -1,0 +1,14 @@
+.logo-background {
+  @include absolute-fill();
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 100px;
+  z-index: -1;
+  background: $logo-background-color;
+
+  &-filter {
+    background: rgba(255, 255, 255, 0.884);
+    @include absolute-fill();
+  }
+}
